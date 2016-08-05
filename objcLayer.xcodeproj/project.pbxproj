@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6407251D548B3200652BAC /* objcLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6407241D548B3200652BAC /* objcLayer.h */; };
+		FE6407251D548B3200652BAC /* objcLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6407241D548B3200652BAC /* objcLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE64072C1D548B3200652BAC /* objcLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6407211D548B3200652BAC /* objcLayer.framework */; };
 		FE6407311D548B3200652BAC /* objcLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6407301D548B3200652BAC /* objcLayerTests.m */; };
+		FE64073E1D548B4D00652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE64073B1D548B4D00652BAC /* Cartfile */; };
+		FE64073F1D548B4D00652BAC /* objcLayer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE64073C1D548B4D00652BAC /* objcLayer.podspec */; };
+		FE6407431D548B7800652BAC /* CALayer+VDShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6407411D548B7800652BAC /* CALayer+VDShadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6407441D548B7800652BAC /* CALayer+VDShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6407421D548B7800652BAC /* CALayer+VDShadow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,11 @@
 		FE64072B1D548B3200652BAC /* objcLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6407301D548B3200652BAC /* objcLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcLayerTests.m; sourceTree = "<group>"; };
 		FE6407321D548B3200652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE64073B1D548B4D00652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE64073C1D548B4D00652BAC /* objcLayer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcLayer.podspec; sourceTree = "<group>"; };
+		FE64073D1D548B4D00652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE6407411D548B7800652BAC /* CALayer+VDShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+VDShadow.h"; sourceTree = "<group>"; };
+		FE6407421D548B7800652BAC /* CALayer+VDShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+VDShadow.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,9 @@
 				FE6407231D548B3200652BAC /* objcLayer */,
 				FE64072F1D548B3200652BAC /* objcLayerTests */,
 				FE6407221D548B3200652BAC /* Products */,
+				FE64073B1D548B4D00652BAC /* Cartfile */,
+				FE64073C1D548B4D00652BAC /* objcLayer.podspec */,
+				FE64073D1D548B4D00652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +85,8 @@
 			children = (
 				FE6407241D548B3200652BAC /* objcLayer.h */,
 				FE6407261D548B3200652BAC /* Info.plist */,
+				FE6407411D548B7800652BAC /* CALayer+VDShadow.h */,
+				FE6407421D548B7800652BAC /* CALayer+VDShadow.m */,
 			);
 			path = objcLayer;
 			sourceTree = "<group>";
@@ -93,6 +107,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6407431D548B7800652BAC /* CALayer+VDShadow.h in Headers */,
 				FE6407251D548B3200652BAC /* objcLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +193,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64073F1D548B4D00652BAC /* objcLayer.podspec in Resources */,
+				FE64073E1D548B4D00652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6407441D548B7800652BAC /* CALayer+VDShadow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
